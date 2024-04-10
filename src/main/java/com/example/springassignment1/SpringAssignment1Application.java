@@ -19,7 +19,7 @@ public class SpringAssignment1Application {
 @RestController
 class CourseController {
 
-    @GetMapping("/computer-science-courses")
+    @GetMapping("/courses")
     public List<String> getComputerScienceCourses() {
         List<String> courses = Arrays.asList(
                 "Foundation Courses",
